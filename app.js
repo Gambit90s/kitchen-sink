@@ -2,22 +2,20 @@ let myFirstName = "Christopher";
 let myMiddleName = "Lynn";
 let myLastName = "Stillwell";
 let myFullName = myFirstName + " " + myMiddleName + " " + myLastName; // Concatenation of 'myFirstname', 'myMiddleName' and 'myLastName'.
-// console.log(myFullName); // Should print: "Matthew Allen Campbell".
+
 
 const UNITED_STATES = 50;
 
 let numberNine = 5 + 4;
 
-// Determines if the first letter of 'myFirstName' begins with an "L" or an "l".
-// "L" == 76.
-// "l" == 108.
+
 if(myFirstName.charCodeAt(0) == 76 | myFirstName.charCodeAt(0) == 108) {
     alert("Back of the line!");
 } else {
     alert("Next!");
 };
 
-// Calls the 'sayHello' function. 
+
 sayHello();
 
 function sayHello() {
@@ -29,11 +27,10 @@ checkAge("Abby", 27);
 checkAge("James", 18); // Displays alert() message.
 checkAge("John", 17); // Displays alert() message.
 
-let favVeggies = ["Carrots", "Corn", "Peas", "Spinach", "Broccoli", "Zucchini"];
+let favVeggies = ["Carrots", "toms", "celery", "Spinach", "Broccoli", "snappeas"];
 
 for(var i = 0; i < favVeggies.length; i++) {
-    console.log(favVeggies[i]); // Displays each item in 'favVeggies' array.
-};
+    console.log(favVeggies[i]); 
 
 var myRonnie = {
     name: "Ronnie",
